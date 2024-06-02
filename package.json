@@ -1,0 +1,19 @@
+{
+  "name": "runts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "jest --config=jest.config.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
